@@ -46,7 +46,7 @@ When you will open this website and search for something, then there is a chance
 
 
 a) You don't have any stable internet connection. <br />
-b) The API which is being used in this application to search for youtube videos i.e. `YouTube Data API v3` has reached its daily limit and is down. 
+b) The API which is being used in this application to search for youtube videos i.e. `YouTube Data API v3` has reached its daily limit and is down for that particular day. 
 
 <br />
 
