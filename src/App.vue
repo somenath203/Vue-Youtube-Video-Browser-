@@ -15,7 +15,7 @@ import SearchBar from "./components/SearchBar.vue";
 import VideoList from "./components/VideoList.vue";
 import VideoDetail from "./components/VideoDetail.vue";
 
-const VUE_APP_YOUTUBE_API_KEY = process.env.VUE_APP_YOUTUBE_API_KEY;
+const API_KEY = 'AIzaSyDS4lvXJP7_MIxuA8rrKcWPbkqyDk4qkl0' ;
 
 export default {
   name: "App",
@@ -38,7 +38,7 @@ export default {
       axios
         .get("https://www.googleapis.com/youtube/v3/search", {
           params: {
-            key: VUE_APP_YOUTUBE_API_KEY,
+            key: API_KEY,
             type: "video",
             part: "snippet",
             q: searchTerm,
